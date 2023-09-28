@@ -10,11 +10,11 @@
 
 <div class="container">
     <div class="row mt-5 ">
-        <h2 class="text-center mb-5">Listing all Vehicles</h2>
+        <h2 class="text-center mb-3">Listing  Vehicles</h2>
         <div class="col-1"></div>
         <div class="col-10 ">
             <table class="table table-striped table-hover">
-                <tr class="table table-info border border-dark">
+                <tr class="table table-primary border border-dark">
                     <td>Name</td>
                     <td>Owner</td>
                     <td>Fuel_type</td>
@@ -42,7 +42,7 @@
                     </td>
                 </tr>
                 {% endfor %}
-                <a href="{% url 'vehicle-add'%}"class="btn btn-outline-info mb-3">Add vehicle</a>
+                
             </table>
         </div>
         <div class="col-1">
